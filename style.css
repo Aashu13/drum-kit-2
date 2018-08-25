@@ -1,0 +1,106 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #ddd;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #759858;
+}
+
+.drum-wrapper {
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+.container {
+    width: 100%;
+    background: #748564;
+    border-radius: 10px;
+}
+
+.drum-kit-btn {
+    width: 55%;
+    display: inline-block;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.drum-kit-btn button {
+    width: 80px;
+    height: 80px;
+    margin: 7px;
+    font-size: 30px;
+    box-sizing: border-box;
+    font: 900;
+    border-radius: 10px;
+    border: none;
+    font-family: sans-serif;
+    color: #ddd;
+    background: #000;
+    cursor: pointer;
+    outline: none;
+}
+
+.drum-controlers {
+    width: 39%;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.select {
+    width: 60px;
+    height: 35px;
+    background: #fff;
+    border-radius: 4px;
+    position: relative;
+    transition: 0.4s;
+}
+
+.select:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    background: skyblue;
+    transition: 0.4s;
+}
+
+.active:before {
+    left: 30px;
+}
+
+.active.btn {
+    transform: scale(1.1);
+    border-color: yellowgreen;
+    box-shadow: 0 0 12px yellow;
+    background: red;
+}
+
+.text-shower {
+    margin: 20px 0;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
