@@ -179,8 +179,10 @@ function updateAudioSrc(e) {
       e.keyCode === bankTwo[j].keyCode ||
       e.target.id === bankTwo[j].triggerKey
     ) {
+      key.classList.remove("active");
       var Soundname = bankTwo[j].id;
       Audio.src = bankTwo[j].url;
+      Audio.currentTime = 0;
       displayText.textContent = Soundname;
       Audio.play();
       addBtnClass();
