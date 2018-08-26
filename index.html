@@ -15,17 +15,17 @@
     <div class="drum-wrapper">
         <div class="container">
             <div class="drum-kit-btn">
-                <button class="btn" id="Heater-1" data-key="81">Q</button>
-                <button class="btn" id="Heater-2" data-key="87">W</button>
-                <button class="btn" id="Heater-3" data-key="69">E</button>
+                <button class="btn" id="q" data-key="81">Q</button>
+                <button class="btn" id="w" data-key="87">W</button>
+                <button class="btn" id="e" data-key="69">E</button>
 
-                <button class="btn" id="Heater-4" data-key="65">A</button>
-                <button class="btn" id="Clap" data-key="83">S</button>
-                <button class="btn" id="Open-HH" data-key="68">D</button>
+                <button class="btn" id="a" data-key="65">A</button>
+                <button class="btn" id="s" data-key="83">S</button>
+                <button class="btn" id="d" data-key="68">D</button>
 
-                <button class="btn" id="Kick-n'-Hat" data-key="90">Z</button>
-                <button class="btn" id="Kick" data-key="88">X</button>
-                <button class="btn" id="Closed-HH" data-key="67">C</button>
+                <button class="btn" id="z" data-key="90">Z</button>
+                <button class="btn" id="x" data-key="88">X</button>
+                <button class="btn" id="c" data-key="67">C</button>
             </div>
             <div class="drum-controlers">
                 <div class="power-div">
@@ -39,12 +39,13 @@
                 </div>
 
                 <div class="range">
-                    <input type="range" min="0" max="100">
+                    <input type="range" min="0" max="100" name="volume" id="Volume" value="100" step="1">
+                    <span>Volume</span>
                 </div>
 
                 <div class="pwer-bank-two">
-                    <p>Bank</p>
-                    <div class="select">
+                    <p>Bank2</p>
+                    <div class="select" id="select-2">
                     </div>
                 </div>
             </div>
